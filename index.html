@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Page 1</title>
 
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/js/script.js" defer></script>
 
 </head>
 <body>
+
+    <div class="pagination">
+        <a href="./index.html">page 1 </a>
+        <span> / </span>
+        <a href="./exercicep2.html"> page 2</a>
+    </div>
+
     <div class="content">
         <div id="exo-1"class="exo">
             <p>Exo 1 : Demande d'un chiffre entre 1 et 3</p>
@@ -17,6 +24,46 @@
         </div>
         <div id="exo-2"class="exo">
             <p>Exo 2 : Demande d'un chiffre entre 10 et 20 avec message</p>
+            <input type="text" name="c-1020" id="c-1020">
+        </div>
+        <div id="exo-3"class="exo">
+            <p>Exo 3 : Affichage des 10 nombres suivants</p>
+            <input type="text" name="c-10nb" id="c-10nb">
+        </div>
+        <div id="exo-4"class="exo">
+            <p>Exo 4 : Voir Exo 3 :D </p>
+        </div>
+        <div id="exo-5"class="exo">
+            <p>Exo 5 : Table de multiplication</p>
+            <input type="text" name="c-tbMp" id="c-tbMp">
+        </div>
+        <div id="exo-6"class="exo">
+            <p>Exo 6 : Addition successive</p>
+            <input type="text" name="c-ad" id="c-ad">
+        </div>
+        <div id="exo-7"class="exo">
+            <p>Exo 7 : Factorielle</p>
+            <input type="text" name="c-fac" id="c-fac">
+        </div>
+        <div id="exo-8"class="exo">
+            <p>Exo 8 : Quelle est le plus grand ?</p>
+            <input type="text" name="c-comp" id="c-comp">
+        </div>
+        <div id="exo-9"class="exo">
+            <p>Exo 9 : Course de chevaux</p>
+            <div class="container">
+                <div class="row">
+                    <label for="c-nbCh">Nombre de chevaux</label>
+                    <input type="number" name="c-nbCh" id="c-nbCh">
+                </div>
+                <div class="row">
+                    <label for="c-nbPl">Nombre de chevaux joué</label>
+                    <input type="number" name="c-nbPl" id="c-nbPl">
+                </div>
+                <div class="row">
+                    <button id="chance">Valider</button>
+                </div>
+            </div>
         </div>
     </div>
 </body>
